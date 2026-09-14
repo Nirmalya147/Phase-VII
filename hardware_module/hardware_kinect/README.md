@@ -1,6 +1,6 @@
 # Setting Up Microsoft Kinect XBOX 360
 
-A brief documentation on how to install the drivers for using [Microsoft Kinect XBOX 360](https://en.wikipedia.org/wiki/Kinect) sensor with [ROS Kinetic](http://wiki.ros.org/kinetic).
+Brief documentation on how to install the drivers for using the [Microsoft Kinect XBOX 360](https://en.wikipedia.org/wiki/Kinect) sensor with [ROS Kinetic](http://wiki.ros.org/kinetic).
 
 ## Instructions
 
@@ -11,7 +11,7 @@ sudo apt-get install doxygen graphviz mono-complete
 sudo apt-get install openjdk-8-jdk
 ```
 
-2. Intalling OpenNI:
+2. Installing OpenNI:
 ```bash
 cd ~/
 git clone https://github.com/OpenNI/OpenNI.git
@@ -34,9 +34,9 @@ cd ../Redist/Sensor-Bin-Linux-x64-v*
 sudo ./install.sh
 ```
 
-__NOTE:__ To test whether the driver is correctly installed or not, run: `~/OpenNI/Platform/Linux/Bin/x64-Release/Sample-NiSimpleViewer`
+__NOTE:__ To test whether the driver is correctly installed or not, run: `~/OpenNI/Platform/Linux/Bin/x64-Release/Sample-NiSimpleViewer.`
 
-4. Install [freenect_launch](http://wiki.ros.org/freenect_launch) which includes launch files to open an OpenNI device:
+4. Install [freenect_launch](http://wiki.ros.org/freenect_launch), which includes launch files to open an OpenNI device:
 ```bash
 sudo apt-get install ros-kinetic-freenect-camera ros-kinetic-freenect-launch
 ```
@@ -60,7 +60,7 @@ rosrun rviz rviz
 
 ## Running Kinect with *Alpha*
 
-Run the following command to visualize the kinect data using rviz:
+Run the following command to visualize the Kinect data using rviz:
 ```
 roslaunch hardware_kinect kinect360_rviz.launch
 ```
