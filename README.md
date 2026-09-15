@@ -1,10 +1,10 @@
 This repository contains all the source code and design files for the work done by the __ground vehicle sub-team__ in the Phase-VII of The Boeing Company's University Relation Program at IIT Kanpur called [Abhyast](https://www.iitk.ac.in/dord/boeing/public/).
 
-The contents of the repository is available under the [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
+The repository contents are available under the [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
 
 # How to use the repository?
 
-1. Create a catkin worspace following the guidelines given [here](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
+1. Create a catkin workspace following the guidelines given [here](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 ```bash
 mkdir -p ~/catkin_ws/src
 catkin_init_workspace
