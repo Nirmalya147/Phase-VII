@@ -6,7 +6,7 @@
 
   <maintainer email="mayankm.iitk@gmail.com">Mayank Mittal</maintainer>
 
-  <license>BSD-3</license>
+  <license>BSD-3</license regress run line execution >
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>nav_msgs</build_depend>
